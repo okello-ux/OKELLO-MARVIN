@@ -1,0 +1,176 @@
+
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: ivory;
+}
+
+
+nav{
+    border-bottom: 5px solid rgb(109, 41, 41);
+    background-color: var(--grey-1);
+
+   
+}
+nav logo {
+   color: var(--blue-2);
+   font-size: 25px;
+   font-weight: bold;
+   box-shadow: 1px 1px 12px var(--grey-1);
+   border-radius: 50%;  
+
+}
+ 
+nav logo .logo-name {
+   background: var(--blue-1);
+   padding: 12px;
+   border-radius: 50%;
+   box-shadow: 3px 3px 3px var(--grey-1);
+   color: white;
+   border-radius: 50%; 
+
+}
+
+nav logo .logo-name img {
+   border-radius: 100%;
+   height: 100px;
+
+}
+ 
+ nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    
+ }
+ nav ul li{
+    color: pink;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 30px;
+   justify-content: safe;
+
+ }
+ nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: cornsilk;
+ }
+ nav ul li :hover{
+   color: gold;
+   cursor: pointer;
+   border-bottom: none;
+
+ }
+ nav  h3{
+   text-decoration: none;
+   padding: 20px;
+   color: white;
+   border-radius: 100px;
+   height: 10px;
+   width: 100px;
+   font-size: 30px;
+   font-family: fantasy;
+   background: rgb(125, 125, 187);
+    
+
+}
+.big{
+   background-image: url(./images/image-11.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+   width: 1340px;
+   margin: 0;
+
+}
+ .big.him{
+   margin-top: 100px;
+   margin-bottom: 50px;
+   margin-right: 200px;
+   margin-left: 200px;
+   text-align: center;
+   justify-content: space-evenly;
+   align-items: center;
+}
+ .big .him .went{
+   margin-top: 100px;
+   font-size: 50px;
+   color: white;
+   font-family: cursive;
+   margin-top: 0;
+   margin-bottom: 50px;
+   margin-right: 200px;
+   margin-left: 200px;
+   text-align: center;
+   justify-content: space-evenly;
+   align-items: center;
+   text-shadow:  5px 5p 5px var(--grey-1);
+   font-weight: bold;
+   
+
+   
+}
+.search{
+   margin-bottom: 50px;
+   margin-right: 200px;
+   margin-left: 200px;
+   text-align: center;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.search input{
+   width: 600px;
+   height: 50px;
+   border-radius: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+   color: rgb(114, 42, 42);
+   border: none;
+   margin-left: 10px;
+   font-weight: lighter;
+
+}
+.last{
+   padding: 50px 50px;
+   background-color: gray;
+   height: 400px;
+   width: 1240px;
+   border-top: 5px solid white;;
+   
+}
+.last .copy{
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aqua;
+   align-items: center;
+   align-content: center;
+   align-self: center;
+   margin-left: 200px;
+}
+.last .container{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.last .container div p{
+   color: aqua;
+   text-transform: none;
+   font-size: 40px;
+   font-weight: bold;
+}
+.last .container div ul li{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   list-style: none;
+}
+.last h6{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 18px;
+   color: white;
+}
+ 

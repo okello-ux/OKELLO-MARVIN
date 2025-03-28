@@ -1,0 +1,142 @@
+ 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ivory;
+ }
+ 
+ 
+ nav{
+     border-bottom: 5px solid rgb(13, 66, 116);
+     background-color: var(--grey-1);
+ 
+    
+ }
+ nav logo {
+    color: var(--blue-2);
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 1px 1px 12px var(--grey-1);
+    
+ }
+  
+ nav logo .logo-name {
+    background: var(--blue-1);
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px var(--grey-1);
+    background: blue;
+    color: white;
+ 
+ }
+ 
+  nav ul{
+     list-style-type: none;
+     display: flex;
+     justify-content: space-evenly;
+     
+  }
+  nav ul li{
+     color:white;
+     font-size: 20px;
+     font-family: cursive;
+     padding: 30px;
+     justify-content: space-evenly;
+ 
+  }
+  nav ul li a{
+     text-decoration: none;
+     padding: 10px;
+     box-shadow:  1px 1px 5px rgba(11, 214, 119, 0.89);
+     border-bottom: 5px solid  rgb(13, 11, 133);
+     border-radius: 30px;
+     color: blue;
+  }
+  nav ul li :hover{
+    color: green;
+    box-shadow: none;
+    cursor: pointer;
+    border-bottom: none;
+ 
+  }
+  nav  h3{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border-radius: 100px;
+    height: 10px;
+    width: 100px;
+    font-size: 30px;
+    font-family: fantasy;
+    background: rgb(125, 125, 187);
+     
+ 
+ }
+ .welcome{
+   display: flex;
+   padding: 20px;
+   justify-content: space-evenly;
+   flex-direction: row;
+   
+ }
+ .welcome .watch{
+   padding: 30px;
+   justify-content: space-evenly;
+   border: 2px solid blue;
+   border-radius: 10px;
+   box-shadow: 7px 7px 7px gray;
+ }
+ .welcome .watch img{
+   height: 250px;
+   width: 300px;
+
+ }
+ .welcome .watch .name{
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   justify-content: space-evenly;
+ }
+ .welcome .watch .now{
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   justify-content: space-evenly;
+ }
+ .welcome .watch .name .label{
+   color: aqua;
+   font-weight: bold;
+ }
+ .welcome .watch .name .money{
+   color: chocolate;
+}
+.welcome .watch .now .percent{
+   color: chocolate;
+}
+.welcome .watch .now .Discount{
+   color: aqua;
+   font-weight: bold;
+}
+.container{
+   align-items: center;
+   color: aqua;
+   font-weight: bold;
+   font-size: 30px;
+   margin-left: 500px;
+}
+.again{
+   padding: 50px 50px;
+   background-color: gray;
+   height: 200px;
+   width: 1240px;
+   border-top: 5px solid white;;
+   
+}
+.again p{
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aqua;
+   align-items: center;
+   align-content: center;
+   align-self: center;
+   margin-left: 200px;
+}
